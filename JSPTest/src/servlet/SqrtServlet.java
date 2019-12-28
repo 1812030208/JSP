@@ -4,14 +4,13 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //利用servlet完成的开平方页面设计
+
 
 @WebServlet(name="sqrt",urlPatterns="/sqrt")//注解，即定义路径，有注解就不用配置web.xml文件了
 public class SqrtServlet extends HttpServlet {
@@ -41,6 +40,4 @@ public class SqrtServlet extends HttpServlet {
 		out.print("</center></body></html>");
 	}
 	
-	
-
 }

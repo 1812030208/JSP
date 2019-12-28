@@ -35,7 +35,6 @@
                 <input type="submit" name="submit" value="登陆">
               </td>
            </tr>
-          </center>
         </table>
       </form>
     </center>

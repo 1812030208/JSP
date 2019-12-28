@@ -21,6 +21,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <!-- servlet在web.xml方式下配置路径 -->
   <servlet>
     <servlet-name>helloServlet</servlet-name>
     <servlet-class>servlet.helloServlet</servlet-class>

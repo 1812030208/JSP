@@ -25,8 +25,8 @@ th 元素内部的文本通常会呈现为居中的粗体文本，而 td 元素�
        for(int i=0;i<cookies.length;i++){
        %>
         <tr>
-         <td><%=cookies[i].getName() %></td>
-         <td><%=cookies[i].getValue() %></td>
+         <td><%=cookies[i].getName() %></td><%--返回cookie的名称，名称在创建后不能改变 --%>
+         <td><%=cookies[i].getValue() %></td><%--获取与cookie关联的值 --%>
         </tr>
        <%} %>
      </table>

@@ -5,7 +5,7 @@ public class Rectangle {
 	private double width;
 	private double height;
 	
-	//必须有一个不带参数的公有构造器
+	//必须有一个不带参数的公有构造器,可以不写，不写就默认添加了
 	public Rectangle(){
 		
 	}

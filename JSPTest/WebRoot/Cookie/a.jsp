@@ -11,7 +11,7 @@
       <%
         Cookie cookie=new Cookie("username","admin");
         cookie.setMaxAge(100);//设置Cookie过期时间
-        response.addCookie(cookie);//创建新对象并将其添加到 Cookies 集合
+        response.addCookie(cookie);//创建新对象并将其添加到 Cookies 集合，注意这里用的是response
         Cookie cookie1=new Cookie("czh","admin");
         cookie1.setMaxAge(100);//设置Cookie过期时间
         response.addCookie(cookie1);
